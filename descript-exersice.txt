@@ -1,0 +1,87 @@
+I.  La pyramide de 5
+  1)  Commencer par juste afficher un gros carré du nombre de lignes 
+    voulues et remplies d'étoiles (genre 5 ligne de 9 étoiles)
+  2)  Il va falloir faire des petits calculs pour trouver le nombre d'étoiles 
+    qu'il faudra selon la ligne, et se servir du résultat pour calculer 
+    le nombre d'espace qu'il faudra avant ce nombre d'étoiles
+  3)  Faire en sorte d'afficher un escalier d'étoiles, 
+    sans prendre en compte les espaces avant chaque ligne d'étoiles.
+  4)  Enfin, Faire en sorte d'afficher les lignes d'étoiles précédées du nombre d'espace requis
+
+II. La pyramide variable
+    Maintenant qu'on arrive à afficher une pyramide de taille fixe,
+    on pourrait tenter de créer une variable au dessus 
+    qui contiendra le nombre de ligne qu'aura la pyramide, afin de pouvoir la faire varier de taille.
+  1)  le but de l'exercice va donc être ici 
+    d'avoir peu de valeur "en dur" dans le code de la pyramide, 
+    genre d'avoir une variable nbLignes plutôt que 5 par exemple
+
+III. Le Sapin de la forêt
+  Faire en sorte de pouvoir afficher un petit sapin 
+  qui va en fait être constitué de pyramides les unes sur les autres
+Bonus :
+  Faire que seul le sommet du sapin 
+  soit pointu et pas les parties en dessous 
+  (donc en gros, seule la pyramide du haut aura la ligne de une seule étoile)
+
+
+  	
+
+Pour faire votre portfolio :
+
+1) Commencer par créer un projet github dans lequel vous mettrez
+  tous les fichiers pour votre portfolio (directement à la racine, 
+  ne faite pas de dossier www ni de docker, ça sera plus simple)
+  ( https://github.com/megraz/portfolio vous avez ici un exemple de portfolio
+  fait par Marlène de la promo3, elle a fait son index en php, vous pouvez le faire en html)
+2) Vous pouvez donc coder tranquillou en local votre portfolio
+  qui va donc devoir contenir une petite présentation, la liste de vos projets
+  (qu'on mettra à jour au fur et à mesure),
+  les liens de vos réseaux sociaux et contact éventuellement
+3) Vous pushez tout ça sur github
+4) Vous ouvrez un terminal pour vous connecter en ssh au serveur simplonlyon 
+  (dans toutes les commandes qui suivent, 
+  remplacer jdemel par votre nom d'utilisateur simplonlyon)
+  (si c'est votre première connexion depuis votre machine, 
+  il vous demandera si vous autorisez l'hôte simplonlyon.fr 
+  toussa toussa, il faudra répondre Oui)
+    ssh jdemel@simplonlyon.fr 
+5) Naviguez jusqu'à votre dossier www
+  cd /var/www/simplonlyon.fr/promo5/jdemel
+6) Clonez votre dépôt github de portfolio directement dans le dossier
+  git clone https://github.com/jdemel/mon-portfolio .
+  (ne pas oublier le . à la fin)
+7) Naviguez sur https://www.simplonlyon.fr/promo5/jdemel 
+  pour voir que vous avez bien mis en ligne le truc et que ça fonctionne
+8 ) Si vous avez des modification à faire,
+  vous n'aurez pu qu'à les faire en local 
+  puis les push sur github, puis vous connectez en ssh 
+  et faire un git pull dans le dossier de votre portfolio
+
+
+
+
+
+  la solution à l'exercice des pyramide et des sapin 
+  sont sur https://github.com/simplon-lyon/promo5-introduction-js 
+  sur la branche solution (comme ça vous pouvez voir ce qu'on a fait 
+  jusqu'à présent sur la branche master sans vous spoiler la suite si jamais)
+
+Et si vous voulez vous entraîner un peu à l'algorithmie de base,
+ voilà un truc en scratch pour l'Hour of Code, avec un thème minecraft 
+ (google a récemment fait un doodle du même genre, pour l'hour of code également).
+ Ca va assez vite, et si vous le faites, n'hésitez pas
+ à cliquer sur le bouton afficher le code pour voir le Javascript que ça vous génère.
+https://studio.code.org/s/mc/stage/1/puzzle/1
+
+
+
+
+
+
+Qui suis-je ?
+
+Après plus de cinq ans d'expérience dans l'édition, je me suis tournée fin 2016 vers le développement web.
+Ma précédente expérience professionnelle m’a enrichie de nombreuses compétences telles que le travail en équipe, la capacité à gérer un projet, du cahier des charges à la réalisation, la rédaction de documents professionnels.
+Une envie d’élargir mon horizon professionnelle m’a conduite à commencer seule l’apprentissage du développement front-end et très rapidement j’ai eu l’occasion de suivre une formation chez Simplon. Ces sept mois intensifs m’ont permis d’acquérir de nombreuses compétences techniques mais également d’expérimenter le travail en groupe et la gestion de projet.
+Aujourd’hui, je souhaite trouver un premier poste dans ce domaine où ma curiosité et ma créativité pourront pleinement s'épanouir.
